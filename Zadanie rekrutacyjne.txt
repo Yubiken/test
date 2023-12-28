@@ -1,0 +1,14 @@
+Zgodnie z dobrymi praktykami i posiadaną wiedzą stwórz framework testowy do testów automatycznych GUI. Wykorzystaj Python, Pytest, Selenium oraz dowolne repozytorium kodu np. bitbucket lub github.  
+ 
+Przygotuj testy GUI portalu testarena (http://testarena.pl/demo ):
+ 
+                           I.         Zalogować się do wersji demo.
+ 
+                         II.          Do dowolnego projektu dodać nowe zadanie i potwierdzić, że zostało dodane.
+ 
+                       III.           Przeprowadzić test logowania przy użyciu błednych danych.
+ 
+Po zakończeniu dostarcz nam wynik np.  w formie linka do repozytorium.
+
+
+krzysztof.adryjanowski@mbank.pl
