@@ -13,7 +13,7 @@ def login():
     driver.get("http://demo.testarena.pl/zaloguj")
 
     # Pobranie loginu i hasła
-    with open('C:\\Users\\y089603\\AppData\\Local\\Programs\\Python\\Python310\\PRACAA\\venv\\konfig.json') as config_file:
+    with open('test\\konfig.json') as config_file:
         config = json.load(config_file)
 
     email = config['email']
