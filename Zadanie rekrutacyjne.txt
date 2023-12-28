@@ -9,6 +9,3 @@ Przygotuj testy GUI portalu testarena (http://testarena.pl/demo ):
                        III.           Przeprowadzić test logowania przy użyciu błednych danych.
  
 Po zakończeniu dostarcz nam wynik np.  w formie linka do repozytorium.
-
-
-krzysztof.adryjanowski@mbank.pl
