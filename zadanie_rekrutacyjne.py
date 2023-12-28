@@ -4,7 +4,7 @@ from selenium.webdriver.common.keys import Keys
 import json
 import time
 
-"""Zadanie 1"""
+"""Zadanie 1 - Zalogować się do wersji demo"""
 
 def login():
     """Celem funkcji jest zalogowanie się do strony http://demo.testarena.pl i potwierdzenie prawidłowego zalogowania"""
@@ -41,7 +41,7 @@ def login():
 
 login()
 
-"""Zadanie 2"""
+"""Zadanie 2 - Do dowolnego projektu dodać nowe zadanie i potwierdzić, że zostało dodane"""
 def addTask():
     """Celem funkcji jest zalogowanie się do strony http://demo.testarena.pl oraz dodanie zadania do projektu 'Testy bazy danych' i potwierdzenie dodania zadania"""
 
@@ -132,7 +132,7 @@ def addTask():
 
 addTask()
 
-"""Zadanie 3"""
+"""Zadanie 3 - Przeprowadzić test logowania przy użyciu błednych danych"""
 def loginIncorrectCredentials():
     """Celem funkcji jest sprawdzenie logowania błędnymi danymi"""
 
