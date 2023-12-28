@@ -16,7 +16,7 @@ def login():
     driver.get("http://demo.testarena.pl/zaloguj")
 
     # Pobranie loginu i hasła
-    with open('C:\\Users\\y089603\\AppData\\Local\\Programs\\Python\\Python310\\PRACAA\\venv\\konfig.json') as config_file:
+    with open('konfig.json') as config_file:
         config = json.load(config_file)
 
     email = config['email']
@@ -52,7 +52,7 @@ def addTask():
     driver.get("http://demo.testarena.pl/zaloguj")
 
     # Pobranie loginu i hasła
-    with open('C:\\Users\\y089603\\AppData\\Local\\Programs\\Python\\Python310\\PRACAA\\venv\\konfig.json') as config_file:
+    with open('konfig.json') as config_file:
         config = json.load(config_file)
     email = config['email']
     password = config['password']
@@ -143,7 +143,7 @@ def loginIncorrectCredentials():
     driver.get("http://demo.testarena.pl/zaloguj")
 
     # Pobranie loginu i hasła
-    with open('C:\\Users\\y089603\\AppData\\Local\\Programs\\Python\\Python310\\PRACAA\\venv\\konfig.json') as config_file:
+    with open('konfig.json') as config_file:
         config = json.load(config_file)
 
     # Pobranie loginu i hasła
@@ -177,7 +177,7 @@ def loginCorrectEmailIncorrectPassword():
     driver.get("http://demo.testarena.pl/zaloguj")
 
     # Pobranie loginu i hasła
-    with open('C:\\Users\\y089603\\AppData\\Local\\Programs\\Python\\Python310\\PRACAA\\venv\\konfig.json') as config_file:
+    with open('konfig.json') as config_file:
         config = json.load(config_file)
 
     # Pobranie loginu i hasła
@@ -211,7 +211,7 @@ def loginIncorrectEmailCorrectPassword():
     driver.get("http://demo.testarena.pl/zaloguj")
 
     # Pobranie loginu i hasła
-    with open('C:\\Users\\y089603\\AppData\\Local\\Programs\\Python\\Python310\\PRACAA\\venv\\konfig.json') as config_file:
+    with open('konfig.json') as config_file:
         config = json.load(config_file)
 
     # Pobranie loginu i hasła
@@ -270,7 +270,7 @@ def loginEmptyEmail():
     driver.get("http://demo.testarena.pl/zaloguj")
 
     # Pobranie loginu i hasła
-    with open('C:\\Users\\y089603\\AppData\\Local\\Programs\\Python\\Python310\\PRACAA\\venv\\konfig.json') as config_file:
+    with open('konfig.json') as config_file:
         config = json.load(config_file)
 
     # Pobranie hasła
@@ -302,7 +302,7 @@ def loginEmptyPassword():
     driver.get("http://demo.testarena.pl/zaloguj")
 
     # Pobranie hasła
-    with open('C:\\Users\\y089603\\AppData\\Local\\Programs\\Python\\Python310\\PRACAA\\venv\\konfig.json') as config_file:
+    with open('konfig.json') as config_file:
         config = json.load(config_file)
 
     email = config['password']
