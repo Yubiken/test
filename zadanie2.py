@@ -4,7 +4,7 @@ from selenium.webdriver.common.keys import Keys
 import json
 import time
 
-def addTask():
+def add_task():
     """Celem funkcji jest zalogowanie się do strony http://demo.testarena.pl oraz dodanie zadania do projektu 'Testy bazy danych' i potwierdzenie dodania zadania"""
 
     # inicjalizacja sterownika przeglądarki
@@ -92,4 +92,4 @@ def addTask():
     driver.quit()
     
 
-addTask()
+add_task()
