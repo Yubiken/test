@@ -175,7 +175,7 @@ def loginEmptyPassword():
     with open('test\\konfig.json') as config_file:
         config = json.load(config_file)
 
-    email = config['password']
+    email = config['email']
 
     driver.find_element(By.ID, "email").send_keys(email)
 
