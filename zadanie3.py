@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 import json
 
 
-def loginIncorrectCredentials():
+def login_incorrect_credentials():
     """Celem funkcji jest sprawdzenie logowania błędnymi danymi"""
 
     # inicjalizacja sterownika przeglądarki
@@ -37,7 +37,7 @@ def loginIncorrectCredentials():
     driver.quit()
 
 
-def loginCorrectEmailIncorrectPassword():
+def login_correct_email_incorrect_password():
     """Celem funkcji jest sprawdzenie logowania prawidłowym adresem email i nieprawidłowym hasłem"""
 
     # inicjalizacja sterownika przeglądarki
@@ -71,7 +71,7 @@ def loginCorrectEmailIncorrectPassword():
     driver.quit()
 
 
-def loginIncorrectEmailCorrectPassword():
+def login_incorrect_email_correct_password():
     """Celem funkcji jest sprawdzenie logowania nieprawidłowym adresem email i prawidłowym hasłem"""
 
     # inicjalizacja sterownika przeglądarki
@@ -106,7 +106,7 @@ def loginIncorrectEmailCorrectPassword():
 
 
 
-def loginEmptyFields():
+def login_empty_fields():
     """Celem funkcji jest sprawdzenie logowania bez podania danych"""
 
     # inicjalizacja sterownika przeglądarki
@@ -130,7 +130,7 @@ def loginEmptyFields():
     driver.quit()
 
 
-def loginEmptyEmail():
+def login_empty_email():
     """Celem funkcji jest sprawdzenie logowania bez podania adresu email"""
 
     # inicjalizacja sterownika przeglądarki
@@ -162,7 +162,7 @@ def loginEmptyEmail():
     driver.quit()
 
 
-def loginEmptyPassword():
+def login_empty_password():
     """Celem funkcji jest sprawdzenie logowania bez podania hasła"""
 
     # inicjalizacja sterownika przeglądarki
@@ -195,9 +195,9 @@ def loginEmptyPassword():
 
 
 
-loginIncorrectCredentials()
-loginCorrectEmailIncorrectPassword()
-loginIncorrectEmailCorrectPassword()
-loginEmptyFields()
-loginEmptyEmail()
-loginEmptyPassword()
+login_incorrect_credentials()
+login_correct_email_incorrect_password()
+login_incorrect_email_correct_password()
+login_empty_fields()
+login_empty_email()
+login_empty_password()
